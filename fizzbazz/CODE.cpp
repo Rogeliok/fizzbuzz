@@ -33,6 +33,10 @@ bool buzz_flag(int n) {
 }
 
 int modul(int n, int d) {
+	if (n < 0 || d < 0) {
+		printf("error");
+		return -1;
+	}
 	while (n >= d)
 		n -= d;
 	return n;
