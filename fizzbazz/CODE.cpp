@@ -3,7 +3,7 @@
 bool fizz_flag(int n);
 bool buzz_flag(int n);
 int modul(int n, int d);
-
+int t = 0;
 int main() {
 	for (int i = 1; i <= 100; i++) {
 		if (buzz_flag(i) && fizz_flag(i)) {
